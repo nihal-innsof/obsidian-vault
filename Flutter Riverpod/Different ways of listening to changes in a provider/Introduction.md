@@ -1,4 +1,0 @@
-#### Different way's to use, values of a provider using `ref` :
-1. Obtaining the value of a provider and listening to changes, such that when this value changes, this will rebuild the widget or provider that subscribed to the value. This is done using `ref.watch`
-2. Adding a listener on a provider, to execute an action such as navigating to a new page or showing a modal whenever that provider changes. This is done using `ref.listen`.
-3. Obtaining the value of a provider while ignoring changes. This is useful when we need the value of a provider in an event such as "on click". This is done using `ref.read`.
