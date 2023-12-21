@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "b71e1ceb2fbf4560",
+        "id": "92ca488d5ddbc0b0",
         "type": "tabs",
         "children": [
           {
-            "id": "95bac359be625c7e",
+            "id": "a72d757b639379ad",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Golang-Chat-Api.md"
+                "file": "Database/Notes.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Golang-Chat-Api.md",
+                "file": "Database/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Golang-Chat-Api.md",
+                "file": "Database/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Golang-Chat-Api.md"
+                "file": "Database/Notes.md"
               }
             }
           }
@@ -153,12 +155,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "95bac359be625c7e",
+  "active": "a72d757b639379ad",
   "lastOpenFiles": [
+    "General Notes.md",
+    "Go/Notes.md",
+    "Database/Notes.md",
+    "Untitled",
+    "Excalidraw/Golang-Chat-Api.md",
     "Excalidraw/Drawing 2023-11-22 20.11.49.excalidraw.md",
     "Excalidraw/Drawing 2023-11-28 06.53.11.excalidraw.md",
     "Excalidraw/Drawing 2023-11-28 06.51.13.excalidraw.md",
-    "Excalidraw/Golang-Chat-Api.md",
     "Spring 5 and Spring Boot 2/Terminologies.md",
     "Secure Code Review/Node.js.md",
     "Nvim/Tips.md",
@@ -168,7 +174,6 @@
     "Kotlin/Classes and Objects/Classes.md",
     "Go/Golang notes.md",
     "Flutter/Freezed - Flutter.md",
-    "Database/Notes.md",
     "Untitled 1.md",
     "Database",
     "Go/Overview.md",
@@ -187,10 +192,7 @@
     "2023-08-27.md",
     "Go",
     "Linux/Usefull commands (linux).md",
-    "Flutter/Flutter Riverpod/Introduction.md",
-    "Flutter/Flutter design patterns/Introduction.md",
     "ASP.Net Core",
-    "Flutter/Flutter Architectures/Abstraction Repository Pattern",
-    "Flutter/Flutter Architectures"
+    "Flutter/Flutter Architectures/Abstraction Repository Pattern"
   ]
 }
