@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assembly/x86/Stack Layout.md",
-                "mode": "preview",
+                "file": "Go/Golang notes.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assembly/x86/Stack Layout.md",
+                "file": "Go/Golang notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assembly/x86/Stack Layout.md",
+                "file": "Go/Golang notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assembly/x86/Stack Layout.md"
+                "file": "Go/Golang notes.md"
               }
             }
           }
@@ -157,19 +157,19 @@
   },
   "active": "84defdbff8b9592b",
   "lastOpenFiles": [
-    "Assembly/x86/Stack Layout.md~",
-    "Assembly/x86/Memory Overview.md",
+    "Go/Overview.md",
+    "Go/Notes.md",
     "Assembly/x86/Stack Layout.md",
-    "Assembly/x86/Memory Overview.md~",
+    "Assembly/x86/Memory Overview.md",
     "Assembly/x86/Registers.md",
+    "Assembly/x86/Stack Layout.md~",
+    "Assembly/x86/Memory Overview.md~",
     "Assembly/x86/memory_overview.md",
     "Assembly/x86/memory_overview.md~",
     "Assembly/x86/Registers.md~",
     "Assembly/images/register.jpg",
     "Flutter/Flutter Architectures/Clean Architecture/Introduction.md",
     "Assembly/x86/registers.md~",
-    "Go/Overview.md",
-    "Go/Notes.md",
     "Go/Gin gonic/Dockerization.md",
     "Go/Golang notes.md",
     "Linux/Usefull commands (linux).md",
