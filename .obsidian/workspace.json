@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go/Golang notes.md",
-                "mode": "source",
+                "file": "ASP.Net Core/Notes.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Go/Golang notes.md",
+                "file": "ASP.Net Core/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Go/Golang notes.md",
+                "file": "ASP.Net Core/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Go/Golang notes.md"
+                "file": "ASP.Net Core/Notes.md"
               }
             }
           }
@@ -157,6 +157,8 @@
   },
   "active": "84defdbff8b9592b",
   "lastOpenFiles": [
+    "Go/Golang notes.md",
+    "Go/Standard Structure.md",
     "Go/Overview.md",
     "Go/Notes.md",
     "Assembly/x86/Stack Layout.md",
@@ -171,7 +173,6 @@
     "Flutter/Flutter Architectures/Clean Architecture/Introduction.md",
     "Assembly/x86/registers.md~",
     "Go/Gin gonic/Dockerization.md",
-    "Go/Golang notes.md",
     "Linux/Usefull commands (linux).md",
     "Nvim/Tips.md",
     "Assembly/x86/Drawing 2024-06-09 20.00.49.excalidraw.md",

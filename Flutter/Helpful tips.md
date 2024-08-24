@@ -1,22 +1,25 @@
-* ## Different navigation techniques is flutter :-
-	1. Passing the `BuildContext` as an argument
-	2. Using on `onSuccess` callback
-	3. Navigate without context using `navigatorKey` in Navigator 1.0 or usign `goRouter`
- 
-* ### Different font sizes in flutter
-|Google size|Flutter size|
-|------------|------------|
-|thin|100|
-|extra-light|200|
-|light|300|
-|regular|400|
-|medium|500|
-|semi-bold|600|
-|bold|700|
-|extra-bold|800|
-|black|900|
+- ## Different navigation techniques is flutter :-
 
-* ### How to use a widget at root to unfocus everywhere on the app
+  1.  Passing the `BuildContext` as an argument
+  2.  Using on `onSuccess` callback
+  3.  Navigate without context using `navigatorKey` in Navigator 1.0 or usign `goRouter`
+
+- ### Different font sizes in flutter
+
+  | Google size | Flutter size |
+  | ----------- | ------------ |
+  | thin        | 100          |
+  | extra-light | 200          |
+  | light       | 300          |
+  | regular     | 400          |
+  | medium      | 500          |
+  | semi-bold   | 600          |
+  | bold        | 700          |
+  | extra-bold  | 800          |
+  | black       | 900          |
+
+- ### How to use a widget at root to unfocus everywhere on the app
+
 ```dart
 class MyApp extends HookConsumerWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -84,7 +87,7 @@ class _Unfocus extends HookConsumerWidget {
 ```
 
 ## Difference between mutable and immutable state management solutions
-|mutable|immutable|
-|-----|----|
-|In mutable state management both the states and the methods which changes the value's of the state exist in a same class|In the case of immutable state-mangement the state and methods/fucntions wchich modifies the state are in separete classes|
 
+| mutable                                                                                                                  | immutable                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| In mutable state management both the states and the methods which changes the value's of the state exist in a same class | In the case of immutable state-mangement the state and methods/fucntions wchich modifies the state are in separete classes |

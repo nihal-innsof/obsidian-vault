@@ -1,3 +1,9 @@
+---
+id: Registers
+aliases: []
+tags: []
+---
+
 ## Registers Overview
 
 Registers are divided into following categories
@@ -119,14 +125,14 @@ The Trap Flag or TF indicates if the processor is in debugging mode. When the TF
 | General Registers    | Segment Registers | Status Registers | Instruction Pointer |
 | -------------------- | ----------------- | ---------------- | ------------------- |
 | RAX, EAX, AX, AH, AL | CS                | EFLAGS           | EIP, RIP            |
-| RBX, EBX, BX, BH, BL | SS                |
-| RCX, ECX, CX, CH, CL | DS                |
-| RDX, EDX, DX, DH, DL | ES                |
-| RBP, EBP, BP         | FS                |
-| RSP, ESP, SP         | GS                |
-| RSI, ESI, SI         |
-| RDI, EDI, DI         |
-| R8-R15               |
+| RBX, EBX, BX, BH, BL | SS                |                  |                     |
+| RCX, ECX, CX, CH, CL | DS                |                  |                     |
+| RDX, EDX, DX, DH, DL | ES                |                  |                     |
+| RBP, EBP, BP         | FS                |                  |                     |
+| RSP, ESP, SP         | GS                |                  |                     |
+| RSI, ESI, SI         |                   |                  |                     |
+| RDI, EDI, DI         |                   |                  |                     |
+| R8-R15               |                   |                  |                     |
 
 ### Segment Registers:
 
