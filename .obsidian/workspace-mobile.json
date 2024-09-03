@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "0aed97761d7550cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "995dac2e83a6bc39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4debb2495118929d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/Notes.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8448e2ebce5970d8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "724512f0d9d8bf30",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "091fb2a9200f2d80",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "tag:#postgres",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1299d2d541940c1e",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "947abc883e6f4c97",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 1
+  },
+  "right": {
+    "id": "f9997638fc3843b3",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "f2dff0cb194724ea",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Database/Notes.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "d8d507815222eee2",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Database/Notes.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "b5f449b455787385",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Database/Notes.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "4debb2495118929d",
+  "lastOpenFiles": [
+    "Bits and pieces/Life without music.md",
+    "Assembly/x86/Stack Layout.md",
+    "Nvim/Tips.md",
+    "Flutter/Flutter Riverpod/Different ways of listening to changes in a provider/Introduction.md",
+    "Flutter/Flutter Riverpod/Different ways of listening to changes in a provider/ref.read.md",
+    "Database/Notes.md",
+    "Linux/Usefull commands (linux).md",
+    "Assembly/x86/Memory Overview.md",
+    "General Notes.md",
+    "Excalidraw/Oflow app wire frame.md",
+    "Untitled.md",
+    "Go/Standard Project Structure.md",
+    "Go/Golang notes.md",
+    "Go/Notes.md",
+    "Go/Overview.md",
+    "ASP.Net Core/Notes.md"
+  ]
+}

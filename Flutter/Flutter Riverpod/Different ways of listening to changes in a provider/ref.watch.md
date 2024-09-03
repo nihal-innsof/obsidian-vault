@@ -1,3 +1,10 @@
+---
+id: ref.watch
+aliases: []
+tags:
+  - riverpod
+---
+
 `ref.watch` is used inside the `build` method of a widget or inside the body of a provider to have the widget/provider listen to a provider.
 
 using `ref.watch` inside provider:
@@ -22,6 +29,7 @@ final filteredTodoListProvider = Provider((ref) {
 ```
 
 using `ref.watch` inside a build method:
+
 ```dart
 final counterProvider = StateProvider((ref) => 0);
 
@@ -38,6 +46,7 @@ class HomeView extends ConsumerWidget {
 }
 ```
 
-#### Note: 
+#### Note:
+
 Whenever possible, prefer using `ref.watch` over `ref.read` or `ref.listen` to implement a feature. By relying on `ref.watch`, your application becomes both reactive and declarative, which makes it more maintainable.
-	The `watch` method should not be called asynchronously, like inside an `onPressed` of an [ElevatedButton](https://api.flutter.dev/flutter/material/ElevatedButton-class.html). Nor should it be used inside `initState` and other [State](https://api.flutter.dev/flutter/widgets/State-class.html) life-cycles. In those cases, consider using `ref.read` instead.
+The `watch` method should not be called asynchronously, like inside an `onPressed` of an [ElevatedButton](https://api.flutter.dev/flutter/material/ElevatedButton-class.html). Nor should it be used inside `initState` and other [State](https://api.flutter.dev/flutter/widgets/State-class.html) life-cycles. In those cases, consider using `ref.read` instead.

@@ -1,6 +1,14 @@
+---
+id: Notes
+aliases: []
+tags: []
+---
+
 ### `select`
+
 The `select` keyword in golang used to implement a `switch case` like mechanism on channels. The `select` allows us to wait on multiple channel operations simultaneously and execute code based on which channel received data first.
-*syntax*:
+_syntax_:
+
 ```go
 select {
 	case ch1 <- x1:

@@ -1,7 +1,11 @@
 ---
 id: Notes
-aliases: []
-tags: []
+aliases: 
+tags:
+  - Database
+  - Golang
+  - migrate
+  - postgres
 ---
 
 [Golang-Migrate](https://github.com/golang-migrate/migrate.git): Golang tool to apply migrations

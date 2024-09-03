@@ -1,3 +1,14 @@
+---
+id: Life without music
+aliases: []
+tags:
+  - music
+  - life
+  - islam
+---
+
+# Casually noting down tid bits
+
 - As a mood booster
 - Feeling bored, if there's no music
 - Its weird if there is no music

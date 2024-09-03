@@ -1,4 +1,11 @@
+---
+id: Factory Method Pattern
+aliases: []
+tags: []
+---
+
 ## Definition
+
 Factory method is to define an interface for creating an object but we let subclasses decide which class to instantiate. Factory method lets a class defer instantiation to subclasses.
 
 ```dart
@@ -22,25 +29,27 @@ abstract class Employee {
 class Programmer implements Employee {
 	@override
 	void work() {
-		print('coding');	
+		print('coding');
 	}
 }
 
 class HRManager implements Employee {
 	@override
 	void work() {
-		print('recruiting');	
+		print('recruiting');
 	}
 }
 
 class Boss implements Employee {
 	@override
 	void work() {
-		print('leading');	
+		print('leading');
 	}
 }
 ```
+
 There is one more way to define factory method pattern apart from the above example, by taking out the factory method pattern from the `Employee` class and putting in a separate class. This approach is recommended if the code base get larger.
+
 ```dart
 abstract class Employee {
 	void work();
@@ -49,21 +58,21 @@ abstract class Employee {
 class Programmer extends Employee {
 	@override
 	void work() {
-		print('coding');	
+		print('coding');
 	}
 }
 
 class HRManager extends Employee {
 	@override
 	void work() {
-		print('recruiting');	
+		print('recruiting');
 	}
 }
 
 class Boss extends Employee {
 	@override
 	void work() {
-		print('leading');	
+		print('leading');
 	}
 }
 
@@ -82,11 +91,14 @@ class FactoryMethod {
 	}
 }
 ```
+
 ## Disadvantages
-* Makes code more difficult to read, as most of the codes are behind abstractions.
-* More heirarchies of classes (this issue can be solved using the prototype design pattern)
+
+- Makes code more difficult to read, as most of the codes are behind abstractions.
+- More heirarchies of classes (this issue can be solved using the prototype design pattern)
 
 ## Related Design Patterns
-* Abstract Factory - Implemented with factory method
-* Prototype - Avoids heirarchies of classes
-* Template method - Implemented with factory methods
+
+- Abstract Factory - Implemented with factory method
+- Prototype - Avoids heirarchies of classes
+- Template method - Implemented with factory methods

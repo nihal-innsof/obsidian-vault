@@ -1,3 +1,12 @@
+---
+id: Helpful tips
+aliases: []
+tags:
+  - flutter
+  - fonts
+  - keyboard focus
+---
+
 - ## Different navigation techniques is flutter :-
 
   1.  Passing the `BuildContext` as an argument
